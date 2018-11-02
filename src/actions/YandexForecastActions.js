@@ -14,7 +14,7 @@ export const getForecast = ({ lat, lon }) => {
       url: `https://api.weather.yandex.ru/v1/forecast?lat=${lat}&lon=${lon}`,
       method: 'GET',
       headers: {
-        'X-Yandex-API-Key': '', //ключ тут
+        'X-Yandex-API-Key': '207f45bf-9470-44e4-98e4-ded6975cf2fb', //ключ тут
         'Access-Control-Allow-Origin': '*',
         crossDomain: true,
       },
